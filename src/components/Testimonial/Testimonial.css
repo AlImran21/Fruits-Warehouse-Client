@@ -1,0 +1,61 @@
+.testimonial-container {
+    background-color: #FFFFFE;
+    padding: 20px;
+}
+
+.testimonials-text h6 {
+    text-align: center;
+    color: #9FCA22;
+}
+
+.testimonials-text h2 {
+    text-align: center;
+    color: #30343D;
+}
+
+.testimonials-card1 {
+    border-top: 4px solid;
+    border-image: linear-gradient(180deg, #9FCA22, #9FCA22, #9FCA22);
+    border-image-slice: 1;
+    background-color: #E4E5E9;
+    padding: 35px;
+}
+
+.quote-icon {
+    font-size: 35px;
+    color: #9FCA22;
+}
+
+.icon-container span {
+   color: #FFC107;
+}
+
+.customer1-name {
+    color: #14462D;
+    font-weight: 600;
+}
+
+.customer-job-title1 {
+    font-size: 12px;
+    color: #9FCA22;
+    font-weight: 600;
+}
+
+.customer2-name {
+    color: #14462D;
+    font-weight: 600;
+}
+
+.customer-job-title2 {
+    font-size: 12px;
+    color: #9FCA22;
+    font-weight: 600;
+}
+
+.testimonials-card2 {
+    border-top: 4px solid;
+    border-image: linear-gradient(180deg, #9FCA22, #9FCA22, #9FCA22);
+    border-image-slice: 1;
+    background-color: #E4E5E9;
+    padding: 35px;
+}
