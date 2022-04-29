@@ -1,4 +1,14 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #E4E5E9; */
+}
+body {
+  background-color: #E4E5E9;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +46,4 @@
     transform: rotate(360deg);
   }
 }
+ */
