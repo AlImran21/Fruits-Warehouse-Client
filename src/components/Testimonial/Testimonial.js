@@ -15,7 +15,8 @@ const Testimonial = () => {
             <div className='container d-flex justify-content-around py-4'>
                 <div className='testimonials-card1'>
                     <FontAwesomeIcon className='quote-icon' icon={faQuoteLeft}></FontAwesomeIcon>
-                    <p>Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit Voluptates qui ab, esse <br /> delectus, ipsa quam perferendis blanditiis tempore <br /> incidunt, quo culpa iusto illum suscipit <br /> laborum natus nihil unde sed nisi! <br /> Lorem ipsum dolor sit amet consectetur, <br /> adipisicing elit. Reiciendis corporis quisquam, cupiditate <br /> eum optio deleniti dolores animi officia.</p>
+                    <p>Some farmers, such as cash grain farmers or <br /> dairy farmers, have large, well-established <br /> markets. They can use existing <br /> organizations to perform the marketing <br /> function for them, or they can band <br /> together, form a cooperative, and market <br /> their products jointly.</p>
+                    <p> Small-scale fruit and vegetable growers <br /> generally have more difficulty finding <br /> established markets; <br /> therefore, they usually develop marketing <br /> systems tailored to their unique situations.</p>
                     <div className='icon-container'>
                         <span><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
                         <span><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
@@ -30,7 +31,8 @@ const Testimonial = () => {
                 </div>
                 <div className='testimonials-card2'>
                     <FontAwesomeIcon className='quote-icon' icon={faQuoteLeft}></FontAwesomeIcon>
-                    <p>Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit Voluptates qui ab, esse <br /> delectus, ipsa quam perferendis blanditiis tempore <br /> incidunt, quo culpa iusto illum suscipit <br /> laborum natus nihil unde sed nisi! <br /> Lorem ipsum dolor sit amet consectetur, <br /> adipisicing elit. Reiciendis corporis quisquam, cupiditate <br /> eum optio deleniti dolores animi officia.</p>
+                    <p>You may wish to process your own fruits <br /> and vegetables. This is how many of today's <br /> processors entered the business decades ago. <br /> If you are considering a processing operation, <br /> contact your state Department of Agriculture <br /> to learn more about food regulations <br /></p>
+                    <p>pertaining to the processing, packaging, <br /> and labeling of your product. <br /> It will probably be impossible for <br /> you to process and market produce <br /> at costs as low as those <br /> incurred by larger processors.<br /></p>
                     <div className='icon-container'>
                         <span><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
                         <span><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
