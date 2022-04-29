@@ -1,0 +1,38 @@
+.about-us-image {
+    width: 550px;
+    height: 400px;
+}
+
+.about-us-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.about-text {
+    background-color: #FFFFFE;
+    padding: 25px;
+    border-radius: 5px;
+    border-top: 4px solid;
+    border-image: linear-gradient(180deg, #9FCA22, #9FCA22, #9FCA22);
+    border-image-slice: 1;
+}
+
+.about-text h6 {
+    color: #9FCA22;
+}
+
+.about-text h2 {
+    color: #30343D;
+}
+
+.about-read-more-button {
+    background-color: #9FCA22;
+    color: #FFFFFE;
+    padding: 7px 20px;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
