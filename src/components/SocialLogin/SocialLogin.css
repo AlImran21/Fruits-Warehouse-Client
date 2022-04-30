@@ -1,0 +1,18 @@
+.horizontal-divider {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-divider p {
+    margin: 0 10px 2px 10px;
+    color: #9FCA22;
+}
+
+.right-line,
+.left-line {
+    height: 1px;
+    width: 145px;
+    background: #14462D;
+
+}

@@ -7,7 +7,7 @@ const Footer = () => {
     const year = today.getFullYear();
 
     return (
-        <div>
+        <div className='footer-container'>
             <footer>
                 <h6>&copy;<span>{year}.Fruit's Warehouse.All Rights Reserved</span></h6>
             </footer>
