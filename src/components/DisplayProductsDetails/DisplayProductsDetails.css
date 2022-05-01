@@ -1,0 +1,23 @@
+.product {
+    background-color: #FFFFFE;
+    border-radius: 5px;
+    height: 500px;
+    width: 270px;
+    overflow: hidden;
+    justify-self: center;
+    transition: all ease-in-out 300ms;
+}
+
+.product>.image-container>img {
+    height: 200px;
+    width: 270px;
+}
+
+.update-button {
+    padding: 6px 17px;
+    border: none;
+    outline: none;
+    background-color: #9FCA22;
+    color: #FFFFFE;
+    border-radius: 3px;
+}

@@ -6,7 +6,7 @@
         "price": 250,
         "supplierName": "Kelvin",
         "quantity": 0,
-        "Description": "The orange is a usually round or oval citrus; its rind and flesh are generally orange, except the varieties of red pulp. The edible part of the orange is the flesh, consumed in fresh or in juice. The orange is also used to make stewed fruit, jams, for consumption as dehydrated fruit, etc"
+        "description": "The orange is a usually round or oval citrus; its rind and flesh are generally orange, except the varieties of red pulp. The edible part of the orange is the flesh, consumed in fresh or in juice. The orange is also used to make stewed fruit, jams, for consumption as dehydrated fruit, etc"
     },
     {
         "id": "2",
@@ -15,7 +15,7 @@
         "price": 380,
         "supplierName": "Paul",
         "quantity": 0,
-        "Description": "Apple, (Malus domestica), fruit of the domesticated tree Malus domestica (family Rosaceae), one of the most widely cultivated tree fruits. The apple is a pome (fleshy) fruit, in which the ripened ovary and surrounding tissue both become fleshy and edible."
+        "description": "Apple, (Malus domestica), fruit of the domesticated tree Malus domestica (family Rosaceae), one of the most widely cultivated tree fruits. The apple is a pome (fleshy) fruit, in which the ripened ovary and surrounding tissue both become fleshy and edible."
     },
     {
         "id": "3",
@@ -24,7 +24,7 @@
         "price": 420,
         "supplierName": "Adam",
         "quantity": 0,
-        "Description": "Pineapples have yellow or white pulp, fleshy, aromatic, juicy and sweet. In the fruit there is a fibrous axis that extends from the crown to the pedicle. Mature pineapples have a very singular fragrance, a beautiful colour and pleasant bittersweet taste."
+        "description": "Pineapples have yellow or white pulp, fleshy, aromatic, juicy and sweet. In the fruit there is a fibrous axis that extends from the crown to the pedicle. Mature pineapples have a very singular fragrance, a beautiful colour and pleasant bittersweet taste."
     },
     {
         "id": "4",
@@ -33,7 +33,7 @@
         "price": 600,
         "supplierName": "Alex",
         "quantity": 0,
-        "Description": "A strawberry is both a low-growing, flowering plant and also the name of the fruit that it produces. Strawberries are soft, sweet, bright red berries. They're also delicious. Strawberries have tiny edible seeds, which grow all over their surface. When ripe, strawberries smell wonderful and taste even better."
+        "description": "A strawberry is both a low-growing, flowering plant and also the name of the fruit that it produces. Strawberries are soft, sweet, bright red berries. They're also delicious. Strawberries have tiny edible seeds, which grow all over their surface. When ripe, strawberries smell wonderful and taste even better."
     },
     {
         "id": "5",
@@ -42,7 +42,7 @@
         "price": 450,
         "supplierName": "Rock",
         "quantity": 0,
-        "Description": " A large oblong or roundish fruit with a hard green or white rind often striped or variegated, a sweet watery pink, yellowish, or red pulp, and usually many seeds. 2 : a widely cultivated African vine (Citrullus lanatus synonym C."
+        "description": " A large oblong or roundish fruit with a hard green or white rind often striped or variegated, a sweet watery pink, yellowish, or red pulp, and usually many seeds. 2 : a widely cultivated African vine (Citrullus lanatus synonym C."
     },
     {
         "id": "6",
@@ -51,7 +51,7 @@
         "price": 300,
         "supplierName": "Holder",
         "quantity": 0,
-        "Description": "A mango is a sweet tropical fruit, and it's also the name of the trees on which the fruit grows. Ripe mangoes are juicy, fleshy, and delicious. Like peaches and plums, mangoes have an inedible pit at the center. Unlike these other fruits, the skin of a mango is very tough and also inedible."
+        "description": "A mango is a sweet tropical fruit, and it's also the name of the trees on which the fruit grows. Ripe mangoes are juicy, fleshy, and delicious. Like peaches and plums, mangoes have an inedible pit at the center. Unlike these other fruits, the skin of a mango is very tough and also inedible."
     },
     {
         "id": "7",
@@ -60,7 +60,7 @@
         "price": 400,
         "supplierName": "Hales",
         "quantity": 0,
-        "Description": "Grapes are fleshy, rounded fruits that grow in clusters made up of many fruits of greenish, yellowish or purple skin. The pulp is juicy and sweet, and it contain several seeds or pips. It is a well-known fruit; it is eaten raw, although it is mainly used for making wine."
+        "description": "Grapes are fleshy, rounded fruits that grow in clusters made up of many fruits of greenish, yellowish or purple skin. The pulp is juicy and sweet, and it contain several seeds or pips. It is a well-known fruit; it is eaten raw, although it is mainly used for making wine."
     },
     {
         "id": "8",
@@ -69,7 +69,7 @@
         "price": 500,
         "supplierName": "Nelson",
         "quantity": 0,
-        "Description": "The fruit is the size of a large orange, obscurely six-sided, with a smooth leathery skin that ranges from brownish yellow to red; within, it is divided into several chambers containing many thin transparent arils of reddish, juicy pulp, each surrounding an angular elongated seed. pomegranate."
+        "description": "The fruit is the size of a large orange, obscurely six-sided, with a smooth leathery skin that ranges from brownish yellow to red; within, it is divided into several chambers containing many thin transparent arils of reddish, juicy pulp, each surrounding an angular elongated seed. pomegranate."
     },
     {
         "id": "9",
@@ -78,7 +78,7 @@
         "price": 300,
         "supplierName": "Joseph",
         "quantity": 0,
-        "Description": "Avocado fruits have greenish or yellowish flesh with a buttery consistency and a rich nutty flavour. They are often eaten in salads, and in many parts of the world they are eaten as a dessert. Mashed avocado is the principal ingredient of guacamole, a characteristic saucelike condiment in Mexican cuisine."
+        "description": "Avocado fruits have greenish or yellowish flesh with a buttery consistency and a rich nutty flavour. They are often eaten in salads, and in many parts of the world they are eaten as a dessert. Mashed avocado is the principal ingredient of guacamole, a characteristic saucelike condiment in Mexican cuisine."
     },
     {
         "id": "10",
@@ -87,7 +87,7 @@
         "price": 140,
         "supplierName": "Brady",
         "quantity": 0,
-        "Description": "Coconut is the fruit of a tropical palm plant. It has a hard shell, edible white flesh and clear liquid, sometimes referred to as “water,” which is often used as a beverage. Coconut flesh or “meat” is aromatic, chewy in texture and rich in taste."
+        "description": "Coconut is the fruit of a tropical palm plant. It has a hard shell, edible white flesh and clear liquid, sometimes referred to as “water,” which is often used as a beverage. Coconut flesh or “meat” is aromatic, chewy in texture and rich in taste."
     },
     {
         "id": "11",
@@ -96,7 +96,7 @@
         "price": 250,
         "supplierName": "Smith",
         "quantity": 0,
-        "Description": "Papaya is a tropical fruit, having oval or pear shape, measuring between 10 and 20cm and usually weighing between 500 and 1,000g, although it may even weigh up to 5kg. It is a berry of thin skin, of a green yellowish and orange colour. The pulp is of a red orange or yellow colour, sweet and very juicy."
+        "description": "Papaya is a tropical fruit, having oval or pear shape, measuring between 10 and 20cm and usually weighing between 500 and 1,000g, although it may even weigh up to 5kg. It is a berry of thin skin, of a green yellowish and orange colour. The pulp is of a red orange or yellow colour, sweet and very juicy."
     },
     {
         "id": "12",
@@ -105,7 +105,7 @@
         "price": 100,
         "supplierName": "Henry",
         "quantity": 0,
-        "Description": "The cherry tomato is a type of small round tomato believed to be an intermediate genetic admixture between wild currant-type tomatoes and domesticated garden tomatoes. Cherry tomatoes range in size from a thumbtip up to the size of a golf ball, and can range from spherical to slightly oblong in shape."
+        "description": "The cherry tomato is a type of small round tomato believed to be an intermediate genetic admixture between wild currant-type tomatoes and domesticated garden tomatoes. Cherry tomatoes range in size from a thumbtip up to the size of a golf ball, and can range from spherical to slightly oblong in shape."
     },
     {
         "id": "13",
@@ -114,7 +114,7 @@
         "price": 380,
         "supplierName": "Taylor",
         "quantity": 0,
-        "Description": "Apricot composition. The apricot is a fruit that resembles the peach but much smaller, pale yellow or orange with some red shades. The pulp is not very juicy, it has fibre texture and farinaceous consistency when the apricot is mature."
+        "description": "Apricot composition. The apricot is a fruit that resembles the peach but much smaller, pale yellow or orange with some red shades. The pulp is not very juicy, it has fibre texture and farinaceous consistency when the apricot is mature."
     },
     {
         "id": "14",
@@ -123,7 +123,7 @@
         "price": 400,
         "supplierName": "Kate",
         "quantity": 0,
-        "Description": "Kiwi is a fruit of ovoid shape, of variable size and covered with a brown fuzzy thin skin. It measures between 4 and 7.5cm long and 3.5 to 5cm wide and the weight oscillates between 30 and150g depending on the variety, the climatic conditions and the planting system."
+        "description": "Kiwi is a fruit of ovoid shape, of variable size and covered with a brown fuzzy thin skin. It measures between 4 and 7.5cm long and 3.5 to 5cm wide and the weight oscillates between 30 and150g depending on the variety, the climatic conditions and the planting system."
     },
     {
         "id": "15",
@@ -132,7 +132,7 @@
         "price": 500,
         "supplierName": "Lionel",
         "quantity": 0,
-        "Description": "Jackfruit is the largest tree-borne fruit in the world, reaching up to 60 cm (about 2 feet) long and weighing up to 18 kg (about 40 pounds). It is ellipsoidal and aggregate, composed of multiple “bulbs” of seed-containing flesh around a stringy core, all of which is enclosed by a bumpy rind."
+        "description": "Jackfruit is the largest tree-borne fruit in the world, reaching up to 60 cm (about 2 feet) long and weighing up to 18 kg (about 40 pounds). It is ellipsoidal and aggregate, composed of multiple “bulbs” of seed-containing flesh around a stringy core, all of which is enclosed by a bumpy rind."
     },
     {
         "id": "16",
@@ -141,7 +141,7 @@
         "price": 80,
         "supplierName": "Monty",
         "quantity": 0,
-        "Description": "Limes are sour, round, and bright green citrus fruits. They're nutritional powerhouses — high in vitamin C, antioxidants, and other nutrients. There are many species of limes, including the Key lime (Citrus aurantifolia), Persian lime (Citrus latifolia), desert lime (Citrus glauca), and makrut lime (Citrus hystrix)."
+        "description": "Limes are sour, round, and bright green citrus fruits. They're nutritional powerhouses — high in vitamin C, antioxidants, and other nutrients. There are many species of limes, including the Key lime (Citrus aurantifolia), Persian lime (Citrus latifolia), desert lime (Citrus glauca), and makrut lime (Citrus hystrix)."
     },
     {
         "id": "17",
@@ -150,16 +150,16 @@
         "price": 320,
         "supplierName": "Gorge",
         "quantity": 0,
-        "Description": "A peach is a very sweet, juicy fruit with an edible peel and a hard pit in the middle. Peaches vary in color from almost white to yellow and pinkish-red. Peaches grow on trees in temperate climates — they need warm weather, but they also require a hard freeze in the winter to produce fruit."
+        "description": "A peach is a very sweet, juicy fruit with an edible peel and a hard pit in the middle. Peaches vary in color from almost white to yellow and pinkish-red. Peaches grow on trees in temperate climates — they need warm weather, but they also require a hard freeze in the winter to produce fruit."
     },
     {
         "id": "18",
         "name": "Pear",
-        "img": "https://galafruit.net/wp-content/uploads/galafruit_pere.jpg",
+        "img": "https://www.jiomart.com/images/product/600x600/590001270/pears-green-imported-3-pcs-pack-product-images-o590001270-p590040932-0-202203170454.jpg",
         "price": 510,
         "supplierName": "Jason",
         "quantity": 0,
-        "Description": "A pome fruit of a tree (genus Pyrus, especially P. communis) of the rose family that typically has a pale green or brownish skin, a firm juicy flesh, and an oblong shape in which a broad base end tapers upward to a narrow stem end."
+        "description": "A pome fruit of a tree (genus Pyrus, especially P. communis) of the rose family that typically has a pale green or brownish skin, a firm juicy flesh, and an oblong shape in which a broad base end tapers upward to a narrow stem end."
     },
     {
         "id": "19",
@@ -168,7 +168,7 @@
         "price": 300,
         "supplierName": "David",
         "quantity": 0,
-        "Description": "Tamarind is the fruit pod of a tree native to Asia and northern Africa, according to 'The New Food Lover's Companion, which describes tamarind's sour-sweet flavor as being akin to lemons, apricots and dates."
+        "description": "Tamarind is the fruit pod of a tree native to Asia and northern Africa, according to 'The New Food Lover's Companion, which describes tamarind's sour-sweet flavor as being akin to lemons, apricots and dates."
     },
     {
         "id": "20",
@@ -177,7 +177,7 @@
         "price": 100,
         "supplierName": "Carson",
         "quantity": 0,
-        "Description": "A banana is a curved, yellow fruit with a thick skin and soft sweet flesh. If you eat a banana every day for breakfast, your roommate might nickname you 'the monkey'. A banana is a tropical fruit that's quite popular all over the world. It grows in bunches on a banana tree."
+        "description": "A banana is a curved, yellow fruit with a thick skin and soft sweet flesh. If you eat a banana every day for breakfast, your roommate might nickname you 'the monkey'. A banana is a tropical fruit that's quite popular all over the world. It grows in bunches on a banana tree."
     },
     {
         "id": "21",
@@ -186,6 +186,6 @@
         "price": 200,
         "supplierName": "Ronda",
         "quantity": 0,
-        "Description": "A carrot in a vegetable garden. Fresh carrots should be firm and crisp, with smooth and unblemished skin. Bright-orange colour indicates high carotene content; smaller types are the most tender. Carrots are used in salads and as relishes and are served as cooked vegetables and in stews and soups."
+        "description": "A carrot in a vegetable garden. Fresh carrots should be firm and crisp, with smooth and unblemished skin. Bright-orange colour indicates high carotene content; smaller types are the most tender. Carrots are used in salads and as relishes and are served as cooked vegetables and in stews and soups."
     }
 ]
