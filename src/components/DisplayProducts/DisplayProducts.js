@@ -1,6 +1,7 @@
 import React from 'react';
 import useDisplayProducts from '../../hooks/useDisplayProducts';
 import DisplayProductsDetails from '../DisplayProductsDetails/DisplayProductsDetails';
+import Inventory from '../Inventory/Inventory';
 import './DisplayProducts.css';
 
 
@@ -18,7 +19,7 @@ const DisplayProducts = () => {
             <div className='display-products-container'>
                 {
                     displayProducts.map(displayProduct => <DisplayProductsDetails
-                        key={displayProduct.id}
+                        key={displayProduct?.id}
                         displayProduct={displayProduct}
                     ></DisplayProductsDetails>)
                 }
