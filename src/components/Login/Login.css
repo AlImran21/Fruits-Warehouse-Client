@@ -29,3 +29,8 @@
     color: #14462D;
     cursor: pointer;
 }
+
+.error-style {
+    font-size: 13px;
+    font-weight: 600;
+}

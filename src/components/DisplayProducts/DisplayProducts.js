@@ -15,7 +15,7 @@ const DisplayProducts = () => {
 
     return (
         <div className='my-5 display-products container'>
-            <h2 className='text-center mb-5'>Inventory Section</h2>
+            <h2 className='text-center mb-5'>Our Products</h2>
             <div className='display-products-container'>
                 {
                     displayProducts.map(displayProduct => <DisplayProductsDetails

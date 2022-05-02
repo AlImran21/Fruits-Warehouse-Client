@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# Fruit's Warehouse
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Click here to visit live site link: [https://my-assignment-11-with-node.web.app/](https://my-assignment-11-with-node.web.app/)
