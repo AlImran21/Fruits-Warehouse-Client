@@ -4,7 +4,7 @@ import './DisplayProductsDetails.css';
 
 
 const DisplayProductsDetails = ({ displayProduct }) => {
-    const { id, img, name, supplierName, quantity, description, price } = displayProduct;
+    const { _id, img, name, supplierName, quantity, description, price } = displayProduct;
     const navigate = useNavigate();
 
     const handleUpdateButton = (id) => {
@@ -27,7 +27,7 @@ const DisplayProductsDetails = ({ displayProduct }) => {
                 </p>
                 <h6 className="card-title">Quantity: {quantity}</h6>
                 <h6 className="card-title mb-3">Price: {price}</h6>
-                <button onClick={() => handleUpdateButton(id)} className="update-button">Update</button>
+                <button onClick={() => handleUpdateButton(_id)} className="update-button">Update</button>
             </div>
         </div>
     );

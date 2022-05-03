@@ -9,6 +9,9 @@ import Blogs from './components/Blogs/Blogs';
 import Footer from './components/Footer/Footer';
 import Inventory from './components/Inventory/Inventory';
 import RequireAuth from './components/RequireAuth/RequireAuth';
+import ManageItems from './components/ManageItems/ManageItems';
+import AddItem from './components/AddItem/AddItem';
+import MyItem from './components/MyItem/MyItem';
 
 
 function App() {
@@ -25,6 +28,9 @@ function App() {
           </RequireAuth>
         }></Route>
 
+        <Route path='/manageItems' element={<ManageItems />}></Route>
+        <Route path='/addItem' element={<AddItem />}></Route>
+        <Route path='/myItem' element={<MyItem />}></Route>
         <Route path='/blogs' element={<Blogs />}></Route>
         <Route path='/register' element={<Register />}></Route>
         <Route path='/login' element={<Login />}></Route>

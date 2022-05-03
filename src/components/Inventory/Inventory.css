@@ -1,0 +1,38 @@
+.delivered-button {
+    padding: 6px 17px;
+    border: none;
+    outline: none;
+    background-color: #1E4D37;
+    color: #FFFFFE;
+    border-radius: 3px;
+}
+
+.delivered-button:hover {
+    background-color: #073c23;
+}
+
+.increase-button {
+    background-color: #308361;
+    padding: 6px 17px;
+    border: none;
+    outline: none;
+    color: #FFFFFE;
+    border-radius: 3px;
+}
+.increase-button:hover {
+    background-color: #00864D;
+}
+
+.manage-all-button {
+    padding: 6px 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #9FCA22;
+    color: #FFFFFE;
+    border-radius: 3px;
+}
+
+.manage-all-button:hover {
+    background-color: #8fb51e;
+}

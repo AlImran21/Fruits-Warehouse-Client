@@ -21,3 +21,7 @@
     color: #FFFFFE;
     border-radius: 3px;
 }
+
+.update-button:hover {
+    background-color: #8fb51e;
+}

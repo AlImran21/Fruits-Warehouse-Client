@@ -1,0 +1,19 @@
+.add-button-container {
+    text-align: center;
+    /* margin: 70px 0px; */
+
+}
+
+.add-item-button {
+    padding: 7px 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #9FCA22;
+    color: #FFFFFE;
+    border-radius: 3px;
+}
+
+.add-item-button:hover {
+    background-color: #8fb51e;
+}

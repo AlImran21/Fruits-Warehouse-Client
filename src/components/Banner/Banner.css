@@ -16,6 +16,10 @@
     border-radius: 3px;
 }
 
+.shop-now-button:hover {
+    background-color: #8fb51e;
+}
+
 .read-more-button {
     background-color: #14462D;
     color: #FFFFFE;
@@ -23,6 +27,10 @@
     border: none;
     outline: none;
     border-radius: 3px;
+}
+
+.read-more-button:hover {
+    background-color: #073c23;
 }
 
 .banner-image {

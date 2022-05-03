@@ -1,0 +1,21 @@
+.add-item-container {
+    border: 4px solid;
+    border-image: linear-gradient(180deg, #9FCA22, #9FCA22, #9FCA22);
+    border-image-slice: 1;
+    background-color: #E4E5E9;
+    padding: 35px;
+}
+
+.item-add-button {
+    background-color: #9FCA22;
+    color: #FFFFFE;
+    padding: 7px 20px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.item-add-button:hover{
+    background-color: #8fb51e;
+}

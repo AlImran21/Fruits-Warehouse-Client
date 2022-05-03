@@ -36,3 +36,7 @@
     outline: none;
     border-radius: 3px;
 }
+
+.about-read-more-button:hover {
+    background-color: #8fb51e;
+}
