@@ -5,7 +5,7 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <div className='container d-flex justify-content-between py-5'>
+        <div className='container d-flex justify-content-between py-5 banner-container'>
             <div className='banner-text'>
                 <h6>Welcome To our Fruit's Warehouse</h6>
                 <h1>Shop Online For <br /> Fresh Fruit's</h1>

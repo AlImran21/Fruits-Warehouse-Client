@@ -40,3 +40,29 @@
 .about-read-more-button:hover {
     background-color: #8fb51e;
 }
+
+/* make responsive about us */
+
+@media only screen and (max-width: 576px) {
+    .about-us-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-us-image {
+        width: 350px;
+        height: 250px;
+        order: 1;
+        margin-bottom: 30px;
+    }
+
+    .about-text {
+        order: 2;
+    }
+
+    .about-text p {
+        font-size: 13px;
+    }
+}

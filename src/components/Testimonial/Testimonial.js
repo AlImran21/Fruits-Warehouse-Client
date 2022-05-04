@@ -12,7 +12,7 @@ const Testimonial = () => {
                 <h6>Testimonials</h6>
                 <h2>What Our Customers Saying</h2>
             </div>
-            <div className='container d-flex justify-content-around py-4'>
+            <div className='container d-flex justify-content-around py-4 testimonial-card-container'>
                 <div className='testimonials-card1'>
                     <FontAwesomeIcon className='quote-icon' icon={faQuoteLeft}></FontAwesomeIcon>
                     <p>Some farmers, such as cash grain farmers or <br /> dairy farmers, have large, well-established <br /> markets. They can use existing <br /> organizations to perform the marketing <br /> function for them, or they can band <br /> together, form a cooperative, and market <br /> their products jointly.</p>

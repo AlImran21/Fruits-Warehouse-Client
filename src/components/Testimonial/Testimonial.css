@@ -59,3 +59,24 @@
     background-color: #E4E5E9;
     padding: 35px;
 }
+
+
+/* make responsive testimonial */
+
+@media only screen and (max-width: 576px) {
+
+    .testimonial-card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonials-card1 {
+        margin-bottom: 30px;
+    }
+
+    .testimonials-card1, .testimonials-card2 p {
+        font-size: 12px;
+    }
+}

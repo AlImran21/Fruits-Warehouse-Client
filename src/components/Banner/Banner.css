@@ -44,3 +44,26 @@
     object-fit: cover;
     border-radius: 7px;
 }
+
+
+/* make responsive banner  */
+
+@media only screen and (max-width: 576px) {
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-text {
+        order: 2;
+    }
+
+    .banner-image {
+        width: 350px;
+        height: 250px;
+        order: 1;
+        margin-bottom: 30px;
+    }
+}

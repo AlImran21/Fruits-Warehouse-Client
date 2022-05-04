@@ -5,7 +5,7 @@ import './AboutUs.css';
 
 const AboutUs = () => {
     return (
-        <div className='container d-flex justify-content-between py-5'>
+        <div className='container d-flex justify-content-between py-5 about-us-container'>
             <div className='about-us-image'>
                 <img src={Banner2} alt="" />
             </div>
