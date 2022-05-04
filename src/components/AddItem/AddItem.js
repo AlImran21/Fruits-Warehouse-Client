@@ -1,46 +1,57 @@
-import React from 'react';
+import React, { useCallback, useEffect } from 'react';
+import { useForm } from 'react-hook-form';
+import { toast, ToastContainer } from 'react-toastify';
 import './AddItem.css';
 
 
 const AddItem = () => {
+    const { register, handleSubmit } = useForm();
 
-    const handleAddItemForm = (event) => {
-        event.preventDefault();
-        const productName = event.target.name.value;
-        const supplier = event.target.supplierName.value;
-        const productDescription = event.target.description.value;
-        const productQuantity = event.target.quantity.value;
-        const productPrice = event.target.price.value;
-        const photoUrl = event.target.img.value;
-        console.log(productName, supplier, productDescription, productQuantity, productPrice, photoUrl);
+    const onSubmit = (data) => {
+        const url = `http://localhost:5000/fruit`;
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+            .then(res => res.json())
+            .then(result => {
+                console.log(result);
+                toast.success('Product added');
+            })
 
-        event.target.reset();
     }
+
+
 
     return (
         <div className='w-25 mx-auto my-5 add-item-container'>
-            <form onSubmit={handleAddItemForm}>
+            <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="mb-3">
-                    <input type="text" name='name' className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Product Name' />
+                    <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Product Name' {...register("name", { required: true, maxLength: 20 })} />
                 </div>
                 <div className="mb-3">
-                    <input type="text" name='supplierName' className="form-control" id="exampleInputPassword1" placeholder='Supplier Name' />
+                    <input type="text" className="form-control" id="exampleInputPassword1" placeholder='Supplier Name'  {...register("supplierName", { required: true, maxLength: 20 })} />
                 </div>
                 <div className="mb-3">
-                    <input type="text" name='description' className="form-control" id="exampleInputPassword1" placeholder='Description' />
+                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Description' {...register("description")} ></textarea>
                 </div>
                 <div className="mb-3">
-                    <input type="number" name='quantity' className="form-control" id="exampleInputPassword1" placeholder='Quantity' />
+                    <input type="number" className="form-control" id="exampleInputPassword1" placeholder='Quantity' {...register("quantity")} />
                 </div>
                 <div className="mb-3">
-                    <input type="number" name='price' className="form-control" id="exampleInputPassword1" placeholder='Price' />
+                    <input type="number" className="form-control" id="exampleInputPassword1" placeholder='Price' {...register("price")} />
                 </div>
                 <div className="mb-3">
-                    <input type="text" name='img' className="form-control" id="exampleInputPassword1" placeholder='Photo URL' />
+                    <input type="text" className="form-control" id="exampleInputPassword1" placeholder='Photo URL' {...register("img")} />
                 </div>
-                <button type="submit" className="item-add-button mb-5">Add Item</button>
+                <button type="submit" className="item-add-button mb-2">Add Item</button>
             </form>
+            <ToastContainer />
         </div>
+
     );
 };
 

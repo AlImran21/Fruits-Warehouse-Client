@@ -16,17 +16,24 @@ const Header = () => {
 
 
     return (
-        <div>
-            <nav className='header'>
+        <nav>
+            <div className='header'>
                 <div>
-                    <Link className='logo' to='/'>
+                    <Link className='d-flex align-items-center logo' to='/'>
                         <img height={'30px'} src={Logo} alt="" />
-                        <h6 className='mt-3'>Fruit's Warehouse</h6>
+                        <h6 className='ms-1 mt-2'>Fruit's Warehouse</h6>
                     </Link>
                 </div>
-                <div className='d-flex'>
+                <div className='d-flex align-items-center'>
                     <CustomLink to='/'>Home</CustomLink>
                     <CustomLink to='/blogs'>Blogs</CustomLink>
+                    {
+                        user &&
+                        <>
+                            <CustomLink to='/addItem'>Add</CustomLink>
+                            <CustomLink to='/manageItems'>Manage</CustomLink>
+                        </>
+                    }
                     {
                         user ?
                             <button onClick={handleSignOut} className='sign-out-button'>Sign Out</button>
@@ -34,9 +41,8 @@ const Header = () => {
                             <CustomLink to='/login'>Login</CustomLink>
                     }
                 </div>
-            </nav>
-        </div>
-
+            </div>
+        </nav>
     );
 };
 
