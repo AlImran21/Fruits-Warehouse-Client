@@ -27,8 +27,8 @@ const AddItem = () => {
 
 
     return (
-        <div className='w-25 mx-auto my-5 add-item-container'>
-            <form onSubmit={handleSubmit(onSubmit)}>
+        <div className='add-item-container'>
+            <form onSubmit={handleSubmit(onSubmit)} className='add-item-form'>
                 <div className="mb-3">
                     <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Product Name' {...register("name", { required: true, maxLength: 20 })} />
                 </div>

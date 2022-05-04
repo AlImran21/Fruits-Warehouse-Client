@@ -38,7 +38,7 @@ const Header = () => {
                     user ?
                         <button onClick={handleSignOut} className='sign-out-button'>Sign Out</button>
                         :
-                        <CustomLink to='/login'>Login</CustomLink>
+                        <CustomLink className='login-link' to='/login'>Login</CustomLink>
                 }
             </div>
         </nav>

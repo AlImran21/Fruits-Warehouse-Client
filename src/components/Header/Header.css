@@ -108,6 +108,10 @@ nav a:hover {
         border-radius: 3px;
     }
 
+    .login-link {
+        margin-right: 15px;
+    }
+
 
 }
 
@@ -141,6 +145,10 @@ nav a:hover {
         margin-left: 5px;
         margin-right: 15px;
         border-radius: 3px;
+    }
+
+    .login-link {
+        margin-right: 15px;
     }
 
 }
