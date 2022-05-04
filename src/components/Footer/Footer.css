@@ -4,3 +4,15 @@ footer {
     padding: 40px;
     text-align: center;
 }
+
+@media only screen and (max-width: 576px) {
+    footer h6 {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    footer h6 {
+        font-size: 12px;
+    }
+}
