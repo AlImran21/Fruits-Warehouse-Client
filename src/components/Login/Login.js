@@ -1,4 +1,3 @@
-import { async } from '@firebase/util';
 import React, { useRef, useState } from 'react';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { useLocation, useNavigate } from 'react-router-dom';
@@ -8,7 +7,6 @@ import SocialLogin from '../SocialLogin/SocialLogin';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Login.css'
-import axios from 'axios';
 import useToken from '../../hooks/useToken';
 
 

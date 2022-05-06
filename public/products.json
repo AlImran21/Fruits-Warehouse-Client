@@ -14,7 +14,7 @@
         "img": "https://us.123rf.com/450wm/utima/utima1606/utima160600068/59830973-fresh-red-apple-with-leaf-isolated-on-white-.jpg?ver=6",
         "price": 380,
         "supplierName": "Paul",
-        "quantity":0,
+        "quantity": 0,
         "description": "Apple, (Malus domestica), fruit of the domesticated tree Malus domestica (family Rosaceae), one of the most widely cultivated tree fruits. The apple is a pome (fleshy) fruit, in which the ripened ovary and surrounding tissue both become fleshy and edible."
     },
     {
@@ -23,7 +23,7 @@
         "img": "https://smithsfruitstores.co.uk/wp-content/uploads/2020/06/pineapple.jpg",
         "price": 420,
         "supplierName": "Adam",
-        "quantity":0,
+        "quantity": 0,
         "description": "Pineapples have yellow or white pulp, fleshy, aromatic, juicy and sweet. In the fruit there is a fibrous axis that extends from the crown to the pedicle. Mature pineapples have a very singular fragrance, a beautiful colour and pleasant bittersweet taste."
     },
     {
@@ -41,7 +41,7 @@
         "img": "https://images.news18.com/ibnlive/uploads/2022/03/watermelon.jpg",
         "price": 450,
         "supplierName": "Rock",
-        "quantity":0,
+        "quantity": 0,
         "description": " A large oblong or roundish fruit with a hard green or white rind often striped or variegated, a sweet watery pink, yellowish, or red pulp, and usually many seeds. 2 : a widely cultivated African vine (Citrullus lanatus synonym C."
     },
     {
@@ -59,7 +59,7 @@
         "img": "https://media.istockphoto.com/photos/green-grape-isolated-on-white-background-picture-id489520104?k=20&m=489520104&s=612x612&w=0&h=n1_B8jn9fb4dQibPhkXftNpjKA4Rvrjp_ttgj6sq5jY=",
         "price": 400,
         "supplierName": "Hales",
-        "quantity":0,
+        "quantity": 0,
         "description": "Grapes are fleshy, rounded fruits that grow in clusters made up of many fruits of greenish, yellowish or purple skin. The pulp is juicy and sweet, and it contain several seeds or pips. It is a well-known fruit; it is eaten raw, although it is mainly used for making wine."
     },
     {
@@ -68,7 +68,7 @@
         "img": "https://cdn.cdnparenting.com/articles/2018/07/522567493-H.webp",
         "price": 500,
         "supplierName": "Nelson",
-        "quantity":0,
+        "quantity": 0,
         "description": "The fruit is the size of a large orange, obscurely six-sided, with a smooth leathery skin that ranges from brownish yellow to red; within, it is divided into several chambers containing many thin transparent arils of reddish, juicy pulp, each surrounding an angular elongated seed. pomegranate."
     },
     {
@@ -113,7 +113,7 @@
         "img": "https://cdn.britannica.com/36/160636-050-B1DC5C0A/Laetrile-apricot-pits.jpg",
         "price": 380,
         "supplierName": "Taylor",
-        "quantity":0,
+        "quantity": 0,
         "description": "Apricot composition. The apricot is a fruit that resembles the peach but much smaller, pale yellow or orange with some red shades. The pulp is not very juicy, it has fibre texture and farinaceous consistency when the apricot is mature."
     },
     {
@@ -131,7 +131,7 @@
         "img": "https://media.istockphoto.com/photos/sweet-jackfruit-isolated-on-white-background-picture-id1226845437?k=20&m=1226845437&s=612x612&w=0&h=6IZ6Oi0kwCDCueNJRXBCcoU2iAuZ0PG3pSoWMZBmSxY=",
         "price": 500,
         "supplierName": "Lionel",
-        "quantity":0,
+        "quantity": 0,
         "description": "Jackfruit is the largest tree-borne fruit in the world, reaching up to 60 cm (about 2 feet) long and weighing up to 18 kg (about 40 pounds). It is ellipsoidal and aggregate, composed of multiple “bulbs” of seed-containing flesh around a stringy core, all of which is enclosed by a bumpy rind."
     },
     {

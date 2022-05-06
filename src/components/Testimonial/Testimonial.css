@@ -79,7 +79,8 @@
         margin-bottom: 30px;
     }
 
-    .testimonials-card1, .testimonials-card2 p {
+    .testimonials-card1,
+    .testimonials-card2 p {
         font-size: 12px;
     }
 }

@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import axiosPrivate from '../../api/axiosPrivate';
 import auth from '../../firebase.init';
-import './MyItem.css';
+
 
 
 const MyItem = () => {

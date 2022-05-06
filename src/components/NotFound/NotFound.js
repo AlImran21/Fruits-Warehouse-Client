@@ -7,7 +7,7 @@ const NotFound = () => {
     return (
         <div>
             <div className='error-alignment'>
-               <img src={Error404} alt="" />
+                <img src={Error404} alt="" />
             </div>
 
         </div>
