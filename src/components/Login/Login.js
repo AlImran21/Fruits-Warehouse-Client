@@ -9,6 +9,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Login.css'
 import axios from 'axios';
+import useToken from '../../hooks/useToken';
 
 
 const Login = () => {
@@ -18,6 +19,8 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
+
+    const [token] = useToken(user);
 
     const emailRef = useRef('');
     const passwordRef = useRef('');
@@ -30,8 +33,8 @@ const Login = () => {
     let from = location.state?.from?.pathname || "/";
 
 
-    if (user) {
-        // navigate(from, { replace: true });
+    if (token) {
+        navigate(from, { replace: true });
     }
 
     // if (loading) {
@@ -46,9 +49,6 @@ const Login = () => {
         // console.log(email, password);
 
         await signInWithEmailAndPassword(email, password);
-        const { data } = await axios.post('https://frozen-island-93381.herokuapp.com/login', { email });
-        localStorage.setItem('accessToken', data.accessToken);
-        navigate(from, { replace: true });
 
         event.target.reset();
     }

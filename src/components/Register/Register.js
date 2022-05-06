@@ -5,6 +5,7 @@ import SocialLogin from '../SocialLogin/SocialLogin';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import './Register.css';
 import Loading from '../Loading/Loading';
+import useToken from '../../hooks/useToken';
 
 
 const Register = () => {
@@ -17,14 +18,16 @@ const Register = () => {
 
     const [updateProfile, updating, updateError] = useUpdateProfile(auth);
 
+    const [token] = useToken(user);
+
     const navigate = useNavigate();
 
     const navigateLogin = (event) => {
         navigate('/login');
     }
 
-    if (user) {
-        console.log('user', user);
+    if (token) {
+        navigate('/');
     }
 
     // if (loading || updating) {
@@ -41,7 +44,6 @@ const Register = () => {
         await createUserWithEmailAndPassword(email, password);
         await updateProfile({ displayName: name });
         console.log('Updated profile');
-        navigate('/');
     }
 
     return (
