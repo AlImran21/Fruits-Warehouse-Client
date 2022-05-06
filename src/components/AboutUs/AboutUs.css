@@ -27,6 +27,10 @@
     color: #30343D;
 }
 
+.about-text p {
+    font-weight: 500;
+}
+
 .about-read-more-button {
     background-color: #9FCA22;
     color: #FFFFFE;

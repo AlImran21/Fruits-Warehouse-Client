@@ -19,6 +19,7 @@
     color: #FFFFFE;
     border-radius: 3px;
 }
+
 .increase-button:hover {
     background-color: #00864D;
 }
@@ -35,4 +36,11 @@
 
 .manage-all-button:hover {
     background-color: #8fb51e;
+}
+
+.increase-form {
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

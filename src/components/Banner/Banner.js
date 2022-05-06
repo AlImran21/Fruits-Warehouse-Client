@@ -9,7 +9,7 @@ const Banner = () => {
             <div className='banner-text'>
                 <h6>Welcome To our Fruit's Warehouse</h6>
                 <h1>Shop Online For <br /> Fresh Fruit's</h1>
-                <p>A fruit warehouse may have hermetically <br /> sealed or open chambers. <br /> In the latter type of chamber the fruit is packaged <br /> in cartons, sacks, or boxes. Fruit warehouses <br /> may be used for only one type of fruit <br /> (pip, drupe, grapes, citrus). Most, however, <br /> are used for various different types of fruit.</p>
+                <p className='text-muted'>A fruit warehouse may have hermetically <br /> sealed or open chambers. <br /> In the latter type of chamber the fruit is packaged <br /> in cartons, sacks, or boxes. Fruit warehouses <br /> may be used for only one type of fruit <br /> (pip, drupe, grapes, citrus). Most, however, <br /> are used for various different types of fruit.</p>
                 <button className='shop-now-button'>Shop Now</button>
                 <button className='read-more-button'>Read More</button>
             </div>

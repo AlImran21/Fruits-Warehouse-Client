@@ -25,6 +25,10 @@ const Inventory = () => {
         navigate('/manageItems');
     }
 
+    const handleDeliveredButton = () => {
+
+    }
+
 
     return (
         <div>
@@ -46,12 +50,12 @@ const Inventory = () => {
                     <button className="delivered-button">Delivered</button>
                 </div>
             </div>
-            <div className='d-block w-25 mx-auto my-5'>
+            <div className='increase-form'>
                 <form onSubmit={handleSubmitForm}>
                     <div className="mb-3">
                         <input type="text" name='quantity' className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Quantity' />
                     </div>
-                    <button type="submit" className="increase-button">Increase Quantity</button>
+                    <button onClick={handleDeliveredButton} type="submit" className="increase-button">Increase Quantity</button>
                 </form>
             </div>
             <div className='text-center my-5'>

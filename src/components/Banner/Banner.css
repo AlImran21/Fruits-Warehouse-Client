@@ -6,6 +6,10 @@
     color: #30343D;
 }
 
+.banner-text p {
+    font-weight: 600;
+}
+
 .shop-now-button {
     background-color: #9FCA22;
     color: #FFFFFE;

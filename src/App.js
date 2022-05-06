@@ -12,6 +12,7 @@ import RequireAuth from './components/RequireAuth/RequireAuth';
 import ManageItems from './components/ManageItems/ManageItems';
 import AddItem from './components/AddItem/AddItem';
 import MyItem from './components/MyItem/MyItem';
+import { ToastContainer } from 'react-toastify';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path='*' element={<NotFound />}></Route>
       </Routes>
       <Footer />
+      <ToastContainer />
     </div>
   );
 }
