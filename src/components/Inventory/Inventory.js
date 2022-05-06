@@ -8,7 +8,7 @@ const Inventory = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        const url = `http://localhost:5000/fruit/${productId}`;
+        const url = `https://frozen-island-93381.herokuapp.com/fruit/${productId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setProduct(data))

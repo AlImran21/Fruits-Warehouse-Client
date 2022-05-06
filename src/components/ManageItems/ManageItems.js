@@ -15,7 +15,7 @@ const ManageItems = () => {
     const handleDeleteButton = (id) => {
         const proceed = window.confirm("Are you sure you want to delete?");
         if (proceed) {
-            const url = `http://localhost:5000/fruit/${id}`;
+            const url = `https://frozen-island-93381.herokuapp.com/fruit/${id}`;
             fetch(url, {
                 method: 'DELETE'
 

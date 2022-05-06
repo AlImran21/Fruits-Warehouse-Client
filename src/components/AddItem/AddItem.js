@@ -11,7 +11,7 @@ const AddItem = () => {
     const { register, handleSubmit } = useForm();
 
     const onSubmit = (data) => {
-        const url = `http://localhost:5000/user`;
+        const url = `https://frozen-island-93381.herokuapp.com/user`;
         fetch(url, {
             method: 'POST',
             headers: {
@@ -78,7 +78,7 @@ const AddItem = () => {
     const { register, handleSubmit } = useForm();
 
     const onSubmit = (data) => {
-        const url = `http://localhost:5000/fruit`;
+        const url = `https://frozen-island-93381.herokuapp.com/fruit`;
         fetch(url, {
             method: 'POST',
             headers: {

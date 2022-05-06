@@ -18,7 +18,7 @@ const MyItem = () => {
 
         const getUsers = async () => {
             const email = user?.email;
-            const url = `http://localhost:5000/user?email=${email}`;
+            const url = `https://frozen-island-93381.herokuapp.com/user?email=${email}`;
 
             try {
                 const { data } = await axiosPrivate.get(url)
@@ -43,7 +43,7 @@ const MyItem = () => {
     const handleDeleteButton = (id) => {
         const proceed = window.confirm("Are you sure you want to delete?");
         if (proceed) {
-            const url = `http://localhost:5000/user/${id}`;
+            const url = `https://frozen-island-93381.herokuapp.com/user/${id}`;
             fetch(url, {
                 method: 'DELETE'
 
