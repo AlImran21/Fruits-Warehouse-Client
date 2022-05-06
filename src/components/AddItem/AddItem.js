@@ -23,9 +23,9 @@ const AddItem = () => {
             .then(result => {
                 console.log(result);
                 toast.success('Product added');
-            })
+            });
 
-    }
+    };
 
 
 
